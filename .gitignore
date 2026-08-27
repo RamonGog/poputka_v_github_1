@@ -1,0 +1,13 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Игнорируем папку виртуального окружения
+venv/
+
+# Игнорируем абсолютно ВСЕ папки кэша Python в любых подпапках
+**/__pycache__/
+__pycache__/
+*.pyc
+
+# Игнорируем служебные настройки VS Code
+.vscode/
+
+desktop.ini
